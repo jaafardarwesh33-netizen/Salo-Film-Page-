@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  font-family: "Playfair Display", serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: linear-gradient(beige, grey);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: linear-gradient(to right, rgba(245, 245, 220, 0.533) 30%, rgba(128, 128, 128, 0.018)),
+    url(https://s3.amazonaws.com/criterion-production/editorial_content_posts/hero/514-/G5cMgLHAjeQPm2Woia1I0A28MLyhoB_original.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.container:hover {
+  background-image: linear-gradient(to right, rgba(245, 245, 220, 0.533) 30%, transparent),
+    url(https://s3.amazonaws.com/criterion-production/editorial_content_posts/hero/514-/G5cMgLHAjeQPm2Woia1I0A28MLyhoB_original.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul {
+  width: 60%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+ul a {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 10px solid transparent;
+}
+
+ul a:hover {
+  border-bottom: 2px solid white;
+}
+.content{
+  width: 50%;
+  margin-top: 50px;
+  padding: 30px;
+  
+}
+.content h2{
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.content p{
+  letter-spacing: 3 px;
+ 
+}
+.content button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.content button:hover{
+  background-color: grey;
+}
